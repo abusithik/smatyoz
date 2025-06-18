@@ -191,7 +191,7 @@ var HeroSection = () => {
       /* @__PURE__ */ jsx4("div", { className: "mt-16 max-w-4xl mx-auto", children: /* @__PURE__ */ jsx4(
         "img",
         {
-          src: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
+          src: "./images/dash.png",
           alt: "AI Hiring Platform Mockup",
           className: "rounded-lg shadow-2xl border-2 border-clr-sky-light opacity-90"
         }
@@ -306,19 +306,19 @@ var HomePage = () => {
       icon: /* @__PURE__ */ jsx9(CheckIcon, { className: "text-clr-sky-white" }),
       title: "Bulk Hiring",
       description: "Enable rapid hiring process for scaling your workforce for rapid growth by automating candidate discovery, outreach, screening and assessing them automatically.",
-      imageUrl: "https://picsum.photos/seed/bulkhiring/400/250"
+      imageUrl: "./images/bulk.jpeg"
     },
     {
       icon: /* @__PURE__ */ jsx9(CheckIcon, { className: "text-clr-sky-white" }),
       title: "Sales Hiring",
       description: "Get a robust sales hiring engine for faster impact on your revenue engine with automated behavioral interviews.",
-      imageUrl: "https://picsum.photos/seed/saleshiring/400/250"
+      imageUrl: "./images/sales.jpeg"
     },
     {
       icon: /* @__PURE__ */ jsx9(CheckIcon, { className: "text-clr-sky-white" }),
       title: "Campus Hiring",
       description: "Set up an optimized campus hiring process to assess large volume of candidates with automated interviews and release offer letter at scale.",
-      imageUrl: "https://picsum.photos/seed/campushiring/400/250"
+      imageUrl: "./images/campus.jpeg"
     }
   ];
   const testimonials = [
@@ -361,7 +361,7 @@ var HomePage = () => {
             /* @__PURE__ */ jsx9(ArrowRightIcon, {})
           ] })
         ] }),
-        /* @__PURE__ */ jsx9("div", { className: "md:w-1/2", children: /* @__PURE__ */ jsx9("img", { src: "https://picsum.photos/seed/platformdiagram/500/350", alt: "Platform Diagram", className: "rounded-lg shadow-md border border-clr-sky-dark" }) })
+        /* @__PURE__ */ jsx9("div", { className: "md:w-1/2", children: /* @__PURE__ */ jsx9("img", { src: "./images/interview.jpeg", alt: "Platform Diagram", className: "rounded-lg shadow-md border border-clr-sky-dark" }) })
       ] })
     ] }) }),
     /* @__PURE__ */ jsx9("section", { className: "py-16 sm:py-24 bg-clr-sky-white", children: /* @__PURE__ */ jsxs8("div", { className: "container mx-auto px-4 sm:px-6 lg:px-8", children: [
@@ -436,37 +436,37 @@ var featuresData = [
     // Icon color for dark card
     title: "AI-Powered Sourcing",
     description: "Automatically find the best candidates from multiple job boards, social media, and your internal database using advanced AI algorithms.",
-    imageUrl: "https://picsum.photos/seed/aisourcing/400/250"
+    imageUrl: "./images/sourcing.jpeg"
   },
   {
     icon: /* @__PURE__ */ jsx11(CheckIcon, { className: "text-clr-sky-white" }),
     title: "Automated Screening",
     description: "Save time by automating the initial screening process. Our AI ranks candidates based on job requirements and your custom criteria.",
-    imageUrl: "https://picsum.photos/seed/autoscreen/400/250"
+    imageUrl: "./images/screening.jpeg"
   },
   {
     icon: /* @__PURE__ */ jsx11(CheckIcon, { className: "text-clr-sky-white" }),
     title: "Collaborative Hiring",
     description: "Involve your entire team in the hiring process with shared candidate pools, feedback tools, and real-time updates.",
-    imageUrl: "https://picsum.photos/seed/collabhiring/400/250"
+    imageUrl: "./images/collab.jpeg"
   },
   {
     icon: /* @__PURE__ */ jsx11(CheckIcon, { className: "text-clr-sky-white" }),
     title: "Advanced Analytics",
     description: "Gain insights into your hiring pipeline with comprehensive analytics and reporting. Track key metrics and optimize your process.",
-    imageUrl: "https://picsum.photos/seed/analytics/400/250"
+    imageUrl: "./images/analytics.jpeg"
   },
   {
     icon: /* @__PURE__ */ jsx11(CheckIcon, { className: "text-clr-sky-white" }),
     title: "Seamless Integrations",
     description: "Connect with your favorite HR tools, calendars, and communication platforms for a smooth workflow.",
-    imageUrl: "https://picsum.photos/seed/integrations/400/250"
+    imageUrl: "./images/integration.jpeg"
   },
   {
     icon: /* @__PURE__ */ jsx11(CheckIcon, { className: "text-clr-sky-white" }),
     title: "Candidate Engagement",
     description: "Keep candidates informed and engaged throughout the process with automated communication and a branded career portal.",
-    imageUrl: "https://picsum.photos/seed/engagement/400/250"
+    imageUrl: "./images/candidate.jpeg"
   }
 ];
 var FeaturesPage = () => {
@@ -608,7 +608,7 @@ var PricingPage = () => {
             ] }),
             /* @__PURE__ */ jsxs12("div", { className: "p-6 bg-clr-sky-white rounded-lg border border-clr-sky-light shadow-lg", children: [
               /* @__PURE__ */ jsx13("h4", { className: "font-semibold text-clr-sky-darkest text-lg", children: "How does billing work?" }),
-              /* @__PURE__ */ jsx13("p", { className: "text-clr-sky-dark mt-1", children: "Starter and Professional plans are billed monthly. Enterprise plans are typically billed annually. We accept all major credit cards." })
+              /* @__PURE__ */ jsx13("p", { className: "text-clr-sky-dark mt-1", children: "Starter and Professional plans are billed monthly. Enterprise plans are typically billed annually." })
             ] })
           ] })
         ] })
@@ -621,10 +621,10 @@ var PricingPage_default = PricingPage;
 // pages/AboutUsPage.tsx
 import { jsx as jsx14, jsxs as jsxs13 } from "react/jsx-runtime";
 var teamMembers = [
-  { name: "Alice Wonderland", role: "CEO & Founder", imageUrl: "https://picsum.photos/seed/alice/200/200" },
-  { name: "Bob The Builder", role: "Chief Technology Officer", imageUrl: "https://picsum.photos/seed/bob/200/200" },
-  { name: "Carol Danvers", role: "Head of Product", imageUrl: "https://picsum.photos/seed/carol/200/200" },
-  { name: "David Copperfield", role: "Lead AI Engineer", imageUrl: "https://picsum.photos/seed/david/200/200" }
+  { name: "Mr. Kesan", role: "CEO & Founder", imageUrl: "https://picsum.photos/seed/alice/200/200" },
+  { name: "Mr.Nathan", role: "Chief Technology Officer", imageUrl: "https://picsum.photos/seed/bob/200/200" },
+  { name: "Mr.Kumar", role: "Head of Product", imageUrl: "https://picsum.photos/seed/carol/200/200" },
+  { name: "Mr.Mohamed", role: "Head of AI", imageUrl: "https://picsum.photos/seed/david/200/200" }
 ];
 var AboutUsPage = () => {
   return /* @__PURE__ */ jsx14(PageShell_default, { title: `About ${COMPANY_NAME}`, className: "bg-clr-sky-white text-clr-sky-darkest", titleClassName: "text-clr-sky-darkest", children: /* @__PURE__ */ jsxs13("div", { className: "max-w-4xl mx-auto", children: [
@@ -649,25 +649,17 @@ var AboutUsPage = () => {
           /* @__PURE__ */ jsx14("li", { children: "Excellence in Execution" })
         ] })
       ] }),
-      /* @__PURE__ */ jsx14("div", { children: /* @__PURE__ */ jsx14("img", { src: "https://picsum.photos/seed/teamwork/500/350", alt: "Our Team", className: "rounded-lg shadow-xl border border-clr-sky-dark" }) })
+      /* @__PURE__ */ jsx14("div", { children: /* @__PURE__ */ jsx14("img", { src: "./images/mission.png", alt: "Our Team", className: "rounded-lg shadow-xl border border-clr-sky-dark" }) })
     ] }) }),
     /* @__PURE__ */ jsxs13("section", { className: "p-8 bg-clr-sky-white rounded-lg shadow-xl border border-clr-sky-light", children: [
-      /* @__PURE__ */ jsx14("h2", { className: "text-3xl font-bold text-clr-sky-darkest mb-8 text-center", children: "Meet Our Team (Placeholder)" }),
+      /* @__PURE__ */ jsx14("h2", { className: "text-3xl font-bold text-clr-sky-darkest mb-8 text-center", children: "Meet Our Team" }),
       /* @__PURE__ */ jsx14("div", { className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-8", children: teamMembers.map((member, index) => /* @__PURE__ */ jsxs13("div", { className: `${index % 2 === 0 ? "bg-clr-sky-white text-clr-sky-darkest" : "bg-clr-sky-darkest text-clr-sky-white"} p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow border ${index % 2 === 0 ? "border-clr-sky-light" : "border-clr-sky-dark"}`, children: [
         /* @__PURE__ */ jsx14("img", { src: member.imageUrl, alt: member.name, className: "w-32 h-32 rounded-full mx-auto mb-4 object-cover" }),
         /* @__PURE__ */ jsx14("h3", { className: `text-xl font-semibold ${index % 2 === 0 ? "text-clr-sky-darkest" : "text-clr-sky-white"}`, children: member.name }),
         /* @__PURE__ */ jsx14("p", { className: `${index % 2 === 0 ? "text-clr-sky-base" : "text-clr-sky-light"}`, children: member.role })
       ] }, member.name)) })
     ] }),
-    /* @__PURE__ */ jsxs13("section", { className: "mt-16 text-center p-8 bg-clr-sky-base text-clr-sky-white rounded-lg shadow-xl border border-clr-sky-dark", children: [
-      /* @__PURE__ */ jsx14("h2", { className: "text-3xl font-bold text-clr-sky-white mb-4", children: "Join Our Journey" }),
-      /* @__PURE__ */ jsxs13("p", { className: "text-lg text-clr-sky-white opacity-90 mb-6", children: [
-        "We're always looking for passionate individuals to join our team. If you're excited about shaping the future of hiring with ",
-        COMPANY_NAME,
-        ", check out our careers page!"
-      ] }),
-      /* @__PURE__ */ jsx14("a", { href: "#", className: "bg-clr-sky-white hover:bg-clr-sky-light text-clr-sky-darkest font-semibold py-3 px-6 rounded-lg transition-colors shadow-md", children: "View Open Positions" })
-    ] })
+    
   ] }) });
 };
 var AboutUsPage_default = AboutUsPage;
@@ -782,7 +774,7 @@ var ContactUsPage = () => {
             /* @__PURE__ */ jsx15("br", {}),
             "123 Innovation Drive",
             /* @__PURE__ */ jsx15("br", {}),
-            "Tech City, CA 94000, USA"
+            "Technopark, Sholinganallur, Chennai, Tamilnadu"
           ] }),
           /* @__PURE__ */ jsxs14("p", { children: [
             /* @__PURE__ */ jsx15("strong", { children: "Email:" }),
@@ -796,7 +788,7 @@ var ContactUsPage = () => {
           /* @__PURE__ */ jsxs14("p", { children: [
             /* @__PURE__ */ jsx15("strong", { children: "Phone:" }),
             " ",
-            /* @__PURE__ */ jsx15("a", { href: "tel:+18005551234", className: "text-clr-sky-white hover:text-clr-sky-light", children: "+1 (800) 555-1234" })
+            /* @__PURE__ */ jsx15("a", { href: "tel:+91 9876543210", className: "text-clr-sky-white hover:text-clr-sky-light", children: "+91 98765 43210" })
           ] }),
           /* @__PURE__ */ jsxs14("p", { children: [
             /* @__PURE__ */ jsx15("strong", { children: "Business Hours:" }),
