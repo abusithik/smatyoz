@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartyoZ - AI Hiring Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'clr-sky': {
+                white: '#E0F2FE',    // Very Light Blue / Almost White
+                light: '#7DD3FC',    // Light Sky Blue
+                DEFAULT: '#0EA5E9',   // Bright Sky Blue / Primary Blue
+                base: '#0EA5E9',      // Alias for DEFAULT
+                dark: '#0369A1',     // Darker Blue / Accent Blue
+                darkest: '#082F49',  // Very Dark Blue / Almost Black
+              },
+              // Hero gradient colors using the new palette
+              'hero-bg-start': '#0369A1', // clr-sky-dark (was clr-sky-DEFAULT)
+              'hero-bg-mid': '#082F49',   // clr-sky-darkest (was clr-sky-dark)
+              'hero-bg-end': '#0369A1',    // clr-sky-dark (was clr-sky-darkest, now cycles to dark)
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Poppins', 'sans-serif'], // For SmartyoZ logo
+            },
+            animation: {
+              'hero-gradient': 'hero-gradient 15s ease infinite',
+            },
+            keyframes: {
+              'hero-gradient': {
+                '0%, 100%': { backgroundPosition: '0% 50%' },
+                '50%': { backgroundPosition: '100% 50%' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-clr-sky-white text-clr-sky-darkest font-sans">
+    <div id="root"></div>
+    <script type="module" src="./dist/index.js"></script>
+  </body>
+</html>
